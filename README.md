@@ -1,16 +1,131 @@
-# React + Vite
+☕ Cafe Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fast, and responsive Cafe / Restaurant Website built using React and Vite.
+This project is designed for cafes, coffee shops, and small restaurants to showcase menus, location, and contact details with a professional web presence.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 18
 
-## React Compiler
+Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+JavaScript
 
-## Expanding the ESLint configuration
+Tailwind CSS / CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+HTML5
+
+ESLint
+
+✨ Features
+
+✅ Fully responsive design
+✅ Clean and modern UI
+✅ Fast loading with Vite
+✅ Mobile-friendly layout
+✅ Reusable React components
+✅ Easy to customize content
+✅ Optimized for performance
+✅ SEO-ready structure
+
+📁 Project Structure
+src/
+ ├── components/       # Navbar, Footer, Cards, etc.
+ ├── pages/            # Home, Menu, About, Contact
+ ├── assets/           # Images & icons
+ ├── styles/           # Global CSS / Tailwind
+ ├── App.jsx           # Main app
+ ├── main.jsx          # Entry point
+
+⚙️ Installation & Run
+1️⃣ Clone Repository
+git clone https://github.com/your-username/cafe-website.git
+cd cafe-website
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start Server
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173/
+
+🏗️ Build for Production
+npm run build
+npm run preview
+
+🖼️ Add Website Preview
+
+Add screenshots in README:
+
+![Cafe Website](./screenshots/homepage.png)
+
+🎨 Customization Guide
+Change	File
+Website Name	App.jsx
+Images	src/assets/
+Menu Items	src/pages/Menu.jsx
+Contact Info	src/pages/Contact.jsx
+Theme Colors	tailwind.config.js or CSS
+Fonts & Styling	src/styles/
+🧠 Best Practices Used
+
+Clean component structure
+
+Reusable sections
+
+Responsive design
+
+Lightweight setup
+
+Optimized build
+
+Consistent UI
+
+📦 Optional Packages
+
+Icons:
+
+npm install lucide-react
+
+
+Animations:
+
+npm install framer-motion
+
+
+UI Framework:
+
+npm install @mui/material
+
+🌍 Deployment
+
+You can deploy easily on:
+
+✅ Netlify
+
+✅ Vercel
+
+✅ GitHub Pages
+
+✅ Firebase Hosting
+
+🤝 Contributing
+
+Contributions are welcome:
+
+1. Fork the project
+2. Create feature branch
+3. Commit changes
+4. Open pull request
+
+👨‍💻 Author
+
+Sahil
+Frontend Developer | React Developer | UI Designer
+
+📄 License
+MIT - Free to use for personal and commercial projects
